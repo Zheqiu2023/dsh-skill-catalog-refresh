@@ -1,0 +1,7 @@
+{
+  "meta": {
+    "title": "Skill catalog refresh",
+    "description": "Announces installed skill changes so the slash skill menu refreshes without starting a new session.",
+    "detail": "docs/DETAIL.md"
+  }
+}

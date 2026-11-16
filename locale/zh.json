@@ -1,0 +1,7 @@
+{
+  "meta": {
+    "title": "技能目录自动刷新",
+    "description": "技能文件变化时向 Web 端广播目录失效事件，斜杠菜单无需新开会话即可刷新。",
+    "detail": "docs/DETAIL.md"
+  }
+}

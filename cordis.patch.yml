@@ -1,0 +1,3 @@
+- insert:
+    - id: skill-catalog-refresh
+      name: '@local/skill-catalog-refresh'
