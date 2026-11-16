@@ -35,12 +35,19 @@ dsh-client-ui-skill  clearAll()  →  下次敲 / 时重新拉取目录
 用 DSH CLI：
 
 ```sh
+dsh plugin --profile <profile> add dsh-skill-catalog-refresh
+```
+
+同时也发布在 npm 上，GitHub 源用法相同：
+
+```sh
 dsh plugin --profile <profile> add github:Zheqiu2023/dsh-skill-catalog-refresh
 ```
 
-或用 `plugin_manager` 工具：
+或用 `plugin_manager` 工具，两种 spec 均可：
 
 ```
+install_bundle { target: "dsh-skill-catalog-refresh@1.0.0" }
 install_bundle { target: "github:Zheqiu2023/dsh-skill-catalog-refresh" }
 ```
 

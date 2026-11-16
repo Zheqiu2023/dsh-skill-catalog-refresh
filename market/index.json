@@ -65,11 +65,9 @@
       "versions": [
         {
           "version": "1.0.0",
-          "publishTimestamp": 1794843573,
+          "publishTimestamp": 1794845286,
           "source": {
-            "type": "git",
-            "url": "https://github.com/Zheqiu2023/dsh-skill-catalog-refresh",
-            "commit": "7341037938554d8d5a9463d46cfd4bc7fe43cb24"
+            "type": "npm"
           },
           "engines": {
             "dsh": ">=0.2.2-rc.3"

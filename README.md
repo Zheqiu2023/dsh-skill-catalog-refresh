@@ -40,12 +40,19 @@ the shared agents root, custom directories, and any other provider registered on
 With the DSH CLI:
 
 ```sh
+dsh plugin --profile <profile> add dsh-skill-catalog-refresh
+```
+
+Also published on npm, so the GitHub spec works the same way:
+
+```sh
 dsh plugin --profile <profile> add github:Zheqiu2023/dsh-skill-catalog-refresh
 ```
 
-Or with the `plugin_manager` agent tool, passing the repository spec:
+Or with the `plugin_manager` agent tool, passing either spec:
 
 ```
+install_bundle { target: "dsh-skill-catalog-refresh@1.0.0" }
 install_bundle { target: "github:Zheqiu2023/dsh-skill-catalog-refresh" }
 ```
 
