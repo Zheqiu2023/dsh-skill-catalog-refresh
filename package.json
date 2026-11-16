@@ -1,6 +1,6 @@
 {
   "name": "dsh-skill-catalog-refresh",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Refresh the slash skill menu of open sessions when skills change on disk, instead of waiting for a new session.",
   "keywords": [
     "deepseek",
@@ -23,7 +23,8 @@
     "cordis.patch.yml",
     "locale/*.json",
     "docs",
-    "icon.svg"
+    "icon.svg",
+    "CHANGELOG.md"
   ],
   "engines": {
     "dsh": ">=0.2.2-rc.3"
